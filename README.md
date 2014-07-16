@@ -15,16 +15,18 @@ If you run into problems, try to follow the specific packages' installation inst
 For Windows users, it may be easier to use `conda` to manage the dependencies. Download miniconda from [http://conda.pydata.org/miniconda.html](here), install it, then run:
 
 ```bash
-$ conda create -n topic_modeling six cython numpy scipy ipython-notebook pip
+$ conda create -n topic_modeling six cython numpy scipy ipython-notebook nltk requests pip
 $ source activate topic_modeling
-$ pip install gensim
+$ pip install pattern gensim
 ```
 
 Then **download corpora we'll be using for topic modeling and indexing**:
 
 ```bash
-$ wget -P ./data 'http://dumps.wikimedia.org/simplewiki/20140623/simplewiki-20140623-pages-articles.xml.bz2'
+$ python download_data.py ./data
 ```
+
+(or, alternatively, download these two files [[14MB](http://people.csail.mit.edu/jrennie/20Newsgroups/20news-bydate.tar.gz), [95MB](http://dumps.wikimedia.org/simplewiki/20140623/simplewiki-20140623-pages-articles.xml.bz2)] yourself. No need to unzip them or anything, just copy them under `./data/`.)
 
 Check that everything works correctly by opening and running the first tutorial notebook:
 

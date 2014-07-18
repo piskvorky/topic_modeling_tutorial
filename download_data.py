@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
     # check and process cmdline input
     program = os.path.basename(sys.argv[0])
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print(globals()['__doc__'] % locals())
         sys.exit(1)
     outdir = sys.argv[1]

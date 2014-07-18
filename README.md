@@ -7,7 +7,7 @@ Install the following packages **before the training starts**:
 
 ```bash
 $ pip install six cython numpy scipy ipython[notebook]
-$ pip install gensim
+$ pip install gensim pattern requests
 ```
 
 If you run into problems, try to follow the specific packages' installation instructions (e.g. [scipy instructions](http://www.scipy.org/install.html)), ask on their mailing list (don't forget to report your operating system and the actual error) or [contact me](mailto:me@radimrehurek.com), in advance. **There won't be much time for troubleshooting dependencies during the training itself!**
@@ -26,7 +26,7 @@ Then **download corpora we'll be using for topic modeling and indexing**:
 $ python download_data.py ./data
 ```
 
-(or, alternatively, download these two files [[14MB](http://people.csail.mit.edu/jrennie/20Newsgroups/20news-bydate.tar.gz), [95MB](http://dumps.wikimedia.org/simplewiki/20140623/simplewiki-20140623-pages-articles.xml.bz2)] yourself. No need to unzip them or anything, just copy them under `./data/`.)
+(or, alternatively, download these two files [[14MB](http://people.csail.mit.edu/jrennie/20Newsgroups/20news-bydate.tar.gz), [95MB](http://dumps.wikimedia.org/simplewiki/20140623/simplewiki-20140623-pages-articles.xml.bz2)] yourself. No need to unzip them or anything, just copy them under the `./data/` directory of this repository.)
 
 Check that everything works correctly by opening and running the first tutorial notebook:
 

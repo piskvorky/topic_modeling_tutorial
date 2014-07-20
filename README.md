@@ -28,6 +28,8 @@ $ python download_data.py ./data
 
 (or, alternatively, download these two files [[14MB](http://people.csail.mit.edu/jrennie/20Newsgroups/20news-bydate.tar.gz), [95MB](http://dumps.wikimedia.org/simplewiki/20140623/simplewiki-20140623-pages-articles.xml.bz2)] yourself. No need to unzip them or anything, just copy them under the `./data/` directory of this repository.)
 
+You will need about **700MB of free disk space** to run all the tutorial examples fully.
+
 Check that everything works correctly by opening and running the first tutorial notebook:
 
 ```bash

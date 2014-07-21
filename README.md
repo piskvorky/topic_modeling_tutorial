@@ -74,7 +74,14 @@ while in the folder of this repository.
 
 This will open a new browser window, listing all the notebooks. Start from the first one, *"0 - Intro & Setup"*, executing each cell in turn by holding down SHIFT+ENTER.
 
-You can also view the notebooks non-interactively (read-only mode), by entering their github URL into http://nbviewer.ipython.org/ .
+You can also view the notebooks non-interactively (read-only mode), as HTML in your browser (no Python needed):
+
+[0 - Intro & Setup](http://radimrehurek.com/topic_modeling_tutorial/0%20-%20Intro%20%26%20Setup.html)
+[1 - Streamed Corpora](http://radimrehurek.com/topic_modeling_tutorial/1%20-%20Streamed%20Corpora.html)
+[2 - Topic Modeling](http://radimrehurek.com/topic_modeling_tutorial/2%20-%20Topic%20Modeling.html)
+[3 - Indexing and Retrieval](http://radimrehurek.com/topic_modeling_tutorial/3%20-%20Indexing%20and%20Retrieval.html)
+
+These static HTML notebooks also contain rendered cell output, so you can compare your results to mine.
 
 ------
 

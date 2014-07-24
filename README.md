@@ -8,6 +8,7 @@ Install the following packages **before the training starts**:
 ```bash
 $ pip install six cython numpy scipy ipython[notebook]
 $ pip install nltk gensim pattern requests textblob
+$ python -m textblob.download_corpora lite
 ```
 
 If you run into problems, try to follow the specific packages' installation instructions (e.g. [scipy instructions](http://www.scipy.org/install.html)), ask on their mailing list (don't forget to report your operating system and the actual error) or [contact me](mailto:me@radimrehurek.com), in advance. **There won't be much time for troubleshooting dependencies during the training itself!**
@@ -18,6 +19,7 @@ For Windows users, it may be easier to use `conda` to manage the dependencies. D
 $ conda create -n topic_modeling six cython numpy scipy ipython-notebook nltk requests pip
 $ source activate topic_modeling
 $ pip install nltk pattern gensim textblob
+$ python -m textblob.download_corpora lite
 ```
 
 Then **download corpora we'll be using for topic modeling and indexing**:

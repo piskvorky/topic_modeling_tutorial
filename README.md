@@ -1,5 +1,8 @@
 This repository contains code and instructions for my EuroPython 2014 tutorial, **"Topic Modeling for Fun and Profit"**.
 
+https://github.com/piskvorky/topic_modeling_tutorial
+----------------------------------------------------
+
 Tutorial setup
 ==============
 

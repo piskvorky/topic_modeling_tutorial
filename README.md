@@ -16,7 +16,7 @@ $ python -m textblob.download_corpora lite
 
 If you run into problems, try to follow the specific packages' installation instructions (e.g. [scipy instructions](http://www.scipy.org/install.html)), ask on their mailing list (don't forget to report your operating system and the actual error) or [contact me](mailto:me@radimrehurek.com), in advance. **There won't be much time for troubleshooting dependencies during the training itself!**
 
-For Windows users, it may be easier to use `conda` to manage the dependencies. Download miniconda from [http://conda.pydata.org/miniconda.html](here), install it, then run:
+For Windows users, it may be easier to use `conda` to manage the dependencies. Download miniconda from [here](http://conda.pydata.org/miniconda.html), install it, then run:
 
 ```bash
 $ conda create -n topic_modeling six cython numpy scipy ipython-notebook nltk requests pip
